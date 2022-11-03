@@ -15,7 +15,6 @@ resource "aws_route53_record" "www" {
   zone_id = data.aws_route53_zone.selected.zone_id
   name    = local.subdomain
   type    = "A"
-  ttl     = 300
   
   alias {
     name                   = data.aws_lb.this.dns_name
