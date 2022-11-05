@@ -1,6 +1,6 @@
 module "user-erdit-module" {
   source  = "app.terraform.io/erditdubovci/user-erdit-module/iam"
-  version = "1.0.1"
+  version = "1.0.2"
   # insert required variables here
 
   user_name = "erdit-user"
